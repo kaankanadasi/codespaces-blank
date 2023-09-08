@@ -1,7 +1,8 @@
+package Princeton2;
 import java.util.Scanner;
 
 public class BodyMaxIndex {
-    public static void main(System[] args) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Write your weight (in kg): ");
         double weight = scan.nextDouble();
