@@ -1,11 +1,15 @@
-package Princeton2;
+package Princeton2.WindChill;
 
 public class WindChill {
     public static void main(String[] args) {
         double t = Double.parseDouble(args[0]);
         double v = Double.parseDouble(args[1]);
         // command line arguments ex. (in the terminal) java Princeton2.WindChill -20.0 25.0
-        
+
+         /* TO MAKE THE CODE WORK I WROTE (IN THE THERMINAL)
+        cd /workspaces/codespaces-blank 
+        javac Princeton2/WindChill.java */ 
+
         if ((Math.abs(t) > 50) || (3.0 > v)  || (v > 120.0)) {
             System.out.println("The formula is not valid in these values of t and v");
         }

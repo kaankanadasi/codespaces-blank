@@ -1,3 +1,4 @@
+package Error1;
 public class cast {
     public static void main(String[] args) {
         double dN = 6.0;

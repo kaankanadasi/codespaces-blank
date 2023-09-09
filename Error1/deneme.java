@@ -1,3 +1,4 @@
+package Error1;
 public class deneme {
     public static void main(String[] args) {
         int Sayı1;

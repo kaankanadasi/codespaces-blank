@@ -1,10 +1,10 @@
-package Princeton2;
+package Princeton2.DayOfWeek;
 
 public class DayOfWeek {
     public static void main(String[] args) {
-        Integer m = Integer.parseInt(args[0]);
-        Integer d = Integer.parseInt(args[1]);
-        Integer y = Integer.parseInt(args[2]);
+            int m = Integer.parseInt(args[0]);
+            int d = Integer.parseInt(args[1]);
+            int y = Integer.parseInt(args[2]);
         // command line args
 
         int y0 = y - (14 - m) / 12;
@@ -12,6 +12,11 @@ public class DayOfWeek {
         int m0 = m + 12 * ((14 - m) / 12) - 2;
         int d0 = (d + x + 31 * m0 / 12) % 7;
         // Gregorian calendar formulas
+
+        /* TO MAKE THE CODE WORK I WROTE (IN THE THERMINAL)
+        cd /workspaces/codespaces-blank 
+        javac Princeton2/DayOfWeek/DayOfWeek.java 
+        (then for example) java Princeton2.DayOfWeek.DayOfWeek 9 8 2023 (for command line args)*/ 
 
         if (d0 == 1) {
             System.out.println("Monday");
