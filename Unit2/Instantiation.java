@@ -18,10 +18,11 @@ public class Instantiation {
     }
 
     public static void main(String[] args) {
-        // Creating objects (instantiating the Person class)
+        // Creating objects (instantiating the Instantiation class)
         Instantiation person1 = new Instantiation("Alice", 25);
         Instantiation person2 = new Instantiation("Bob", 30);
 
+        // Storing objects in an array
         Instantiation[] people = new Instantiation[2];
         people[0] = person1;
         people[1] = person2;
